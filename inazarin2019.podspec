@@ -9,8 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'inazarin2019'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of inazarin2019.'
+  s.summary          = 'iOS Swift day08'
 
+
+  s.swift_version    = '4.0.3'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -31,10 +33,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'inazarin2019/Classes/**/*'
+  s.resources = 'inazarin2019/Assets/*.xcdatamodeld'
   
   # s.resource_bundles = {
   #   'inazarin2019' => ['inazarin2019/Assets/*.png']
   # }
+  s.frameworks = 'CoreData'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

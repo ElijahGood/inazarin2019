@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		160EE258E1ABB8AA400D7DCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		160EE258E1ABB8AA400D7DCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* inazarin2019_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inazarin2019_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* inazarin2019_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inazarin2019_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6375ADAFBBFAA50490C02E6C /* inazarin2019.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = inazarin2019.podspec; path = ../inazarin2019.podspec; sourceTree = "<group>"; };
+		6375ADAFBBFAA50490C02E6C /* inazarin2019.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = inazarin2019.podspec; path = ../inazarin2019.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		784F942F8C827732D703479F /* Pods_inazarin2019_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inazarin2019_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F02B31BFA69DF6D3D55389 /* Pods-inazarin2019_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inazarin2019_Tests.release.xcconfig"; path = "Target Support Files/Pods-inazarin2019_Tests/Pods-inazarin2019_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8EA9905B42AE6BE631230932 /* Pods_inazarin2019_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inazarin2019_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		909237DCC16CE27E45E35F33 /* Pods-inazarin2019_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inazarin2019_Example.release.xcconfig"; path = "Target Support Files/Pods-inazarin2019_Example/Pods-inazarin2019_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4436AB7C461D572436AE46B /* Pods-inazarin2019_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inazarin2019_Tests.debug.xcconfig"; path = "Target Support Files/Pods-inazarin2019_Tests/Pods-inazarin2019_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8ECD25FCA813665B3978094 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D8ECD25FCA813665B3978094 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F0EB3D6D479BA09B3D8A1556 /* Pods-inazarin2019_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inazarin2019_Example.debug.xcconfig"; path = "Target Support Files/Pods-inazarin2019_Example/Pods-inazarin2019_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				D4436AB7C461D572436AE46B /* Pods-inazarin2019_Tests.debug.xcconfig */,
 				79F02B31BFA69DF6D3D55389 /* Pods-inazarin2019_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -285,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-inazarin2019_Tests-checkManifestLockResult.txt",
 			);
@@ -307,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-inazarin2019_Example-checkManifestLockResult.txt",
 			);
